@@ -2,7 +2,7 @@ import Layout from "../../components/Layout";
 
 function Users() {
   return (
-    <Layout>
+    <Layout pageTitle="Users">
       <div>Users</div>
     </Layout>
   );
