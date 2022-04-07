@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { GetStaticPropsContext } from "next";
 import { User } from ".";
 import Layout from "../../components/Layout";
