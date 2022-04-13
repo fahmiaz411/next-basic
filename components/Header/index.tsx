@@ -9,7 +9,7 @@ const styles: Style = {
   container: {
     width: "100%",
     height: 50,
-    backgroundColor: "#333",
+    backgroundColor: "#0094fe",
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
