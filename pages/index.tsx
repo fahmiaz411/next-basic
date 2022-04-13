@@ -2,7 +2,7 @@ import Layout from "../components/Layout";
 
 export default function Home() {
   return (
-    <Layout pageTitle="Home">
+    <Layout pageTitle="Beranda">
       <div
         style={{
           display: "flex",

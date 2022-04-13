@@ -14,8 +14,9 @@ export default function Layout({ children, pageTitle }: LayoutProps) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>{pageTitle}</title>
+        <title>{pageTitle} | Kursus Teknologi</title>
         <meta name="description" content={`Website ${pageTitle}`} />
+        <link rel="icon" href="/favicon.jpg" />
       </Head>
       <Header />
       <div className={styles.children}>{children}</div>
