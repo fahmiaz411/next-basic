@@ -15,7 +15,7 @@ export default function Home() {
           fontSize: 60,
         }}
       >
-        <p>Hello Fahmi</p>
+        <p>Hello Ega</p>
       </div>
     </Layout>
   );
