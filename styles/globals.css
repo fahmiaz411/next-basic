@@ -1,6 +1,8 @@
 html,
 body {
   background-color: rgb(31, 31, 31);
+  background-image: url("../public/walpaper.jpg");
+  object-fit: cover;
   padding: 0;
   margin: 0;
   height: 100%;
