@@ -1,20 +1,23 @@
 import Link from "next/link";
-import styles from "../Header/Header.module.css";
+import { CSSProperties } from "react";
+
+type Style = {
+  container: CSSProperties;
+};
+
+const styles: Style = {
+  container: {
+    width: "100%",
+    height: 50,
+    backgroundColor: "#333",
+  },
+};
 
 export default function Header() {
   return (
-    <header className={styles.container}>
-      <ul className={styles.list}>
-        <li>
-          <Link href={"/"}>Home</Link>
-        </li>
-        <li>
-          <Link href={"/blog"}>Blog</Link>
-        </li>
-        <li>
-          <Link href={"/users"}>Users</Link>
-        </li>
-      </ul>
+    <header style={styles.container}>
+      <span>Test</span>
+      <span>Test</span>
     </header>
   );
 }
