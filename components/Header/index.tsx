@@ -10,14 +10,20 @@ const styles: Style = {
     width: "100%",
     height: 50,
     backgroundColor: "#333",
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    paddingLeft: 20,
+    paddingRight: 20,
   },
 };
 
 export default function Header() {
   return (
     <header style={styles.container}>
-      <span>Test</span>
-      <span>Test</span>
+      <span>Left</span>
+      <span>Right</span>
     </header>
   );
 }
