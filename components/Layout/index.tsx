@@ -16,7 +16,7 @@ export default function Layout({ children, pageTitle }: LayoutProps) {
       <Head>
         <title>{pageTitle} | Kursus Teknologi</title>
         <meta name="description" content={`Website ${pageTitle}`} />
-        <link rel="icon" href="/favicon.jpg" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <Header />
       <div className={styles.children}>{children}</div>
