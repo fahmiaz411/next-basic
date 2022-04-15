@@ -7,38 +7,72 @@
   display: flex;
   overflow-x: auto;
   align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.content::-webkit-scrollbar {
+  height: 0px;
 }
 
 .arrow {
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(40, 0, 47);
+  opacity: 0.5;
   font-family: sans-serif;
   font-size: x-large;
   font-weight: 900;
+  transition: ease 300ms;
 }
 
 .arrow:hover {
   cursor: pointer;
+  opacity: 0.8;
+  /* border-radius: 40%; */
+  transition: ease 300ms;
+  width: 60px;
+  height: 60px;
 }
 
 .card {
-  min-width: 500px;
-  min-height: 180px;
-  background-color: rgb(255, 255, 255);
+  /* width: 500px; */
+  /* height: 180px; */
+  padding: 20px;
+  background-color: rgb(0, 12, 24);
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: 10px;
   margin-right: 10px;
+  cursor: pointer;
+  border: 1px solid #ae6b00;
+  transition: ease 300ms;
+}
+
+.card:hover {
+  z-index: 2;
+  transform: scale(1.2);
+  transition: ease 300ms;
 }
 
 .card * {
-  color: black;
+  /* color: black; */
   font-family: "Trebuchet MS";
 }
 
 .thumb {
   display: flex;
-  background-color: #ddd;
+  width: 150px;
+  height: 120px;
+  background-color: rgb(4, 21, 39);
   border-radius: 10px;
   overflow: hidden;
 }
@@ -50,7 +84,7 @@
 
 .thumb-category {
   font-size: large;
-  color: rgb(124, 124, 124);
+  color: #6688a9;
 }
 
 .thumb-progress {
